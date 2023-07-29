@@ -1,6 +1,4 @@
 if SHIELD_NICESICK68
-
     config ZMK_KEYBOARD_NAME
         default "nice!sick68"
-
 endif
