@@ -1,0 +1,2 @@
+config SHIELD_NICESICK68
+    def bool $(shields_list_contains, nicesick68)
