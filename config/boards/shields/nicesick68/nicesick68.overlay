@@ -1,4 +1,4 @@
-{
+/ {
     chosen {
         zmk,kscan = &default_kscan;
         zmk,matrix_transform = &default_transform;
