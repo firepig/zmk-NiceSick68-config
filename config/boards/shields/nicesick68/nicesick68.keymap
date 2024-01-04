@@ -20,7 +20,7 @@
 // | TAB  |  Q  |  W  |  E  |  R  |  T  |  Y  |  U  |  I  |  O  |  P  |  [  |  ]  |    "|"     |  DEL  |
 // | CAPS  |  A  |  S  |  D  |  F  |  G  |  H  |  J  |  K  |  L  |  ;  |  '  |      ENTER      | PgUp  |
 // |  SHIFT  |  Z  |  X  |  C  |  V  |  B  |  N  |  M  |  ,  |  .  |  /  |     Fn MO(1)     | UpAr  | PgDwn |
-// |  CTL  |  WIN  |  ALT  |            SPACE              | ALT | WIN | CTL | LftAr |  DwnAr| RgtAr |
+// |  CTL  |  WIN  |  ALT  |            SPACE              | ALT | WIN | MO(1) | LftAr |  DwnAr| RgtAr |
 // ------------------------------------------------------------------------------------------
 			bindings = <
 	&gresc  &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS &kp EQUAL  &kp BSPC &kp GRAVE
@@ -44,7 +44,7 @@
 	*
 	* After switching to a Bluetooth slot, press Function + Delete to clear its profile. 
 	* Be sure to also delete the profile from the Bluetooth settings of your device.
-	**/
+	*/
 
 	function_layer {
 	// ------------------------------------------------------------------------------------------
@@ -52,11 +52,11 @@
 	// | TAB  |  Q  |  W  |  E  |  R  |  T  |  Y  |  U  |  I  |  O  |  P  |  [  |  ]  |    "|"     |  DEL  |
 	// | CAPS  |  A  |  S  |  D  |  F  |  G  |  H  |  J  |  K  |  L  |  ;  |  '  |      ENTER      | PgUp  |
 	// |  SHIFT  |  Z  |  X  |  C  |  V  |  B  |  N  |  M  |  ,  |  .  |  /  |     Fn (MO(1))     | UpAr  | PgDwn |
-	// |  CTL  |  WIN  |  ALT  |            SPACE              | ALT | WIN | MO(1) | LftAr |  DwnAr| RgtAr |
+	// |  CTL  |  WIN  |  ALT  |            SPACE              | ALT | WIN | CTL | LftAr |  DwnAr| RgtAr |
 	// ------------------------------------------------------------------------------------------
 			
 			bindings = <
-	&none  &f1 &f2 &f3 &f4 &f5 &f6 &f7 &f8 &f9 &f10 &f11 &f12  &none &bootloader
+	&none  &none &none &none &none &none &none &none&none &none &none &none &none  &none &bootloader
 	&none  &none  &none &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none &bt BT_CLR
 	&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none &none           &none &none
 	&none   &none  &none  &none  &none  &none  &none  &none  &none &none &none           &none &none &none  
