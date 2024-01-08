@@ -59,8 +59,8 @@
 	&none  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2 &none &none &none &none&none &none &none &none &none  &none &bootloader
 	&none  &none  &none &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none 						 &bt BT_CLR
 	&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none &none           &none 						 &none
-	&none   &none  &none  &none  &none  &none  &none  &none  &none &none &none   &none               &C_VOLUME_UP  		 &none
-	&none &none &none             &none                     &none &none &none         &C_PREVIOUS &C_VOLUME_DOWN &C_NEXT
+	&none   &none  &none  &none  &none  &none  &none  &none  &none &none &none   &none               &C_VOL_UP  		 &none
+	&none &none &none             &none                     &none &none &none         &C_PREVIOUS &C_VOL_DN &C_NEXT
 			>;
 		};
 	};
